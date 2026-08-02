@@ -9,8 +9,6 @@ AI agents don't just generate text anymore — they call tools, run shell comman
 
 This list is organized around that lifecycle rather than around any single vendor or protocol.
 
-**Disclosure:** this list is maintained by [@ar9av](https://github.com/ar9av), creator of [Prismor](https://github.com/PrismorSec/prismor). Prismor is included below alongside its alternatives — contributions that add, correct, or reorder entries (including ranking competitors above it) are welcome.
-
 ## Contents
 
 - [🆔 Identity & Non-Human Access](#-identity--non-human-access)
@@ -40,7 +38,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps, keeping agents on topic and enforcing safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM inputs/outputs against structural and semantic rules.
 - **[Invariant](https://github.com/invariantlabs-ai/invariant)** - Guardrails for secure and robust agent development, enforcing runtime policies over agent traces and tool calls.
-- **[LLM Guard](https://github.com/protectai/llm-guard)** - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content.
+- **[LLM Guard](https://github.com/protectai/llm-guard)** *(archived)* - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content. Archived by Protect AI in 2026 and no longer maintained; listed for reference only.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
 
 ## 🌐 Gateways & Proxies
