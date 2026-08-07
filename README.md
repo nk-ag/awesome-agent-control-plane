@@ -29,7 +29,6 @@ This list is organized around that lifecycle rather than around any single vendo
 
 - **[SPIFFE/SPIRE](https://github.com/spiffe/spire)** - A CNCF-graduated workload identity framework issuing cryptographic identity to services and, increasingly, to autonomous agents and their workloads.
 - **[WSO2](https://github.com/wso2)** - Identity and access management tooling that treats AI agents as first-class identities, enabling authentication and authorization for agent actions.
-- **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys.
 
 ## 🚧 Policy Enforcement & Runtime Control
 *The core control-plane layer: evaluating and blocking agent tool calls against policy before they execute.*
