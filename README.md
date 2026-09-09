@@ -34,6 +34,7 @@ This list is organized around that lifecycle rather than around any single vendo
 *The core control-plane layer: evaluating and blocking agent tool calls against policy before they execute.*
 
 - **[Prismor](https://github.com/PrismorSec/prismor)** - Self-hosted runtime control plane for AI coding agents. Hooks into Claude Code, Codex, and other agent SDKs to block dangerous commands, secret leaks, and prompt injection before they execute.
+- **[Failproof](https://github.com/FailproofAI/failproofai)** - Learn from agent traces to find failure modes and fix them with policies.
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps, keeping agents on topic and enforcing safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM inputs/outputs against structural and semantic rules.
 - **[Invariant](https://github.com/invariantlabs-ai/invariant)** - Guardrails for secure and robust agent development, enforcing runtime policies over agent traces and tool calls.
